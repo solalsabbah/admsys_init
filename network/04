@@ -1,1 +1,2 @@
 route get default | grep gateway
+#laisser le grep voir avec Adrien

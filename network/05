@@ -1,1 +1,2 @@
-nslookup slash16.com | grep Address
+nslookup slash16.org | grep Address
+#2 premiere lignes address DNS et apres ip du site
