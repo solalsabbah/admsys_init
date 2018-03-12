@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]
+then
+	echo "Usage: ./03 <directory>"
+	exit 0
+fi
+
+ls -S $1

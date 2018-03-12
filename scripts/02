@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# crontab -e
+# 0 4 * * 1 /bin/sh /home/ssabbah/Desktop/init/script/02
+#
+
+nohup apt-get -y update >> /var/log/update_script.log
+nohup apt-get -y upgrade >> /var/log/update_script.log

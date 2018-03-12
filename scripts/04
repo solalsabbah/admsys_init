@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# crontab -e
+# 0 0 * * * /bin/sh /home/ssabbah/Desktop/init/script/04
+
+# Create a file with the md5sum of the crontab, before you start using the script
+# md5sum /etc/crontab | cut -d " " -f1 > /root/result
+
+
+let a=0;
+
+if ((a==0)); then
+	echo salut
+fi
+echo bye
