@@ -7,9 +7,11 @@
 # md5sum /etc/crontab | cut -d " " -f1 > /root/result
 
 
-let a=0;
+var=$(cat result)
 
-if ((a==0)); then
-	echo salut
+var2=$(md5sum /etc/crontab | cut -d " " -f1)
+
+if [$var != $var2]; then
+	echo "Crontab was changed" | mail -s "Notification from script" root@localhost.localdomain
+	echo $var2 > result
 fi
-echo bye

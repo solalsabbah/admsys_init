@@ -1,1 +1,1 @@
-dhcp
+# serveur dhcp. c est un serveur qui delivre des adresses IP aux ordinateurs qui se connectent sur le reseau.

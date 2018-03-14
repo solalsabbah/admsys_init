@@ -1,1 +1,1 @@
-pgrep ssh
+pgrep sshd

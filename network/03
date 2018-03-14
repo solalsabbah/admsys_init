@@ -1,5 +1,1 @@
-ifconfig | grep ether 
-##en1 carte wifi
-:'
-commentaires multilignes
-' 
+ifconfig en1 | grep ether 
